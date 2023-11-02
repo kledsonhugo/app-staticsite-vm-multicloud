@@ -14,8 +14,8 @@ terraform {
     # }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-staticsite-vm-tf"
-    storage_account_name = "staticsitevmkbtf001"
+    resource_group_name  = "rg-salles"
+    storage_account_name = "sallescp"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }

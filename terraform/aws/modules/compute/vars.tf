@@ -10,4 +10,3 @@ variable "ami" {
         error_message = "The ami value must be a valid AMI id, starting with \"ami-\"."
     }
 }
-
